@@ -1,0 +1,23 @@
+.Footer_logos {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.Footer_logos li {
+  display: inline-block;
+  font-size: 2em;
+  padding: 0;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.Footer_logos li a {
+  text-decoration: none;
+  color: black;
+}
+
+.Footer_copyright {
+  text-align: center;
+  color: black;
+}

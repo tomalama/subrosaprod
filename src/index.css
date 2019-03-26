@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Univers";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Univers"), url("./fonts/Univers.woff") format("woff");
+}
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0;
+  font-family: "Univers";
+  overflow-x: hidden;
+  background-position: 50 10;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

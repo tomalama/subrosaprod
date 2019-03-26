@@ -1,0 +1,30 @@
+.Contact_content h1 {
+  text-align: center;
+}
+
+.Contact_form {
+  text-align: center;
+  width: 80%;
+  margin: 65px auto;
+}
+
+.Contact_form label,
+.Contact_form input {
+  font-size: 24px;
+  display: block;
+}
+
+.Contact_form label {
+  margin-top: 18px;
+}
+
+.Contact_form input {
+  margin-bottom: 20px;
+  vertical-align: top;
+  margin: 6px auto;
+}
+
+.Contact_form input[type="submit"] {
+  color: white;
+  background: black;
+}

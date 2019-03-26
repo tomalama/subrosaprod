@@ -1,0 +1,23 @@
+.Landing {
+  background: black;
+}
+
+.Landing_demo-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.Landing img {
+  padding: 0;
+  margin: 0;
+}
+
+.Landing_demo-reel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Landing_style-is-substance {
+  width: 100%;
+}

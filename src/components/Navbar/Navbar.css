@@ -1,0 +1,43 @@
+.Navbar {
+  margin: 18px 46px;
+  display: flex;
+}
+
+/* Header */
+
+.Navbar_header {
+  flex: 0 0 10%;
+}
+
+.Navbar_logo {
+  width: 150px;
+  height: 150px;
+}
+
+/* Content */
+
+.Navbar_content {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+}
+
+.Navbar_links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.Navbar_links li {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 24px;
+}
+
+.Navbar_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
