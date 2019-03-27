@@ -33,11 +33,21 @@
 .Navbar_links li {
   display: inline-block;
   margin-left: 12px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .Navbar_link {
   text-decoration: none;
   font-weight: bold;
   color: black;
+}
+
+.Navbar_link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 602px) {
+  .Navbar_links li {
+    display: block;
+  }
 }
