@@ -26,10 +26,6 @@ class Contact extends Component {
       "%0D%0A%0D%0AI look forward to hearing back.%0D%0A%0D%0AThanks,%0D%0A" +
       this.state.name;
 
-    // if (this.state.name) {
-    //   actionString += "%20From%20" + this.state.name;
-    // }
-
     window.location.href = actionString;
     event.preventDefault();
   }
