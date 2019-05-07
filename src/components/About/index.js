@@ -8,8 +8,8 @@ class About extends Component {
       <div className="About">
         <div className="About_content">
           <p>
-            "Sub rosa is a media production company based in Ottawa, Ontario,
-            led by Creative Director Mack Brander and Producer Hassan Moazin.
+            Sub Rosa is a media production company based in Ottawa, Ontario, led
+            by Creative Director Mack Brander and Producer Hassan Moazin.
             <br />
             <br />
             During film school Mack and Hassan were recognized for producing
@@ -24,12 +24,12 @@ class About extends Component {
             <br />
             <br />
             After working in various jobs in the industry we decided that we
-            want to produce videos that are true to our unique style. sub rosa
+            want to produce videos that are true to our unique style. Sub Rosa
             was created so we can use our passion and experience to create
             memorable videos for clients. If you're not satisfied with the
-            quality and outcome, then we're not; We want to work alongside you
+            quality and outcome, then we're not; we want to work alongside you
             and create something with you that you can be just as proud about as
-            we are. Your vision is ours."
+            we are. Your vision is ours.
           </p>
         </div>
         <div>

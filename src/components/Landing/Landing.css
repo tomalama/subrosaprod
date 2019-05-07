@@ -5,6 +5,8 @@
 .Landing_demo-wrapper {
   position: relative;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 .Landing img {

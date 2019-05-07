@@ -8,8 +8,7 @@ class Contact extends Component {
     this.state = {
       name: "",
       email: "",
-      description: "",
-      action: ""
+      description: ""
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -21,19 +20,18 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    if (!this.state.name) {
-      event.preventDefault();
-    } else if (!this.state.email) {
-      event.preventDefault();
-    } else {
-      this.setState({
-        action:
-          "mailto:subrosa.prod@gmail.com?subject=Video%20Inquiry?body=Hello,%0D%0AI'd like to discuss a video idea. " +
-          this.state.description +
-          "%0D%0AI look forward to hearing back.%0D%0AThanks,%0D%0A" +
-          this.state.name
-      });
-    }
+    let actionString =
+      "mailto:prod.subrosa@gmail.com?subject=Video%20Inquiry&body=Hello,%0D%0A%0D%0AI'd like to discuss a video idea: " +
+      this.state.description +
+      "%0D%0A%0D%0AI look forward to hearing back.%0D%0A%0D%0AThanks,%0D%0A" +
+      this.state.name;
+
+    // if (this.state.name) {
+    //   actionString += "%20From%20" + this.state.name;
+    // }
+
+    window.location.href = actionString;
+    event.preventDefault();
   }
 
   componentDidMount() {
@@ -50,17 +48,14 @@ class Contact extends Component {
         <div className="Contact_content">
           <h1>We're looking forward to hearing from you!</h1>
         </div>
-        <form
-          className="Contact_form"
-          onSubmit={this.handleSubmit}
-          action={this.state.action}
-        >
+        <form className="Contact_form" onSubmit={this.handleSubmit}>
           <label>Your Name (required)</label>
           <input
             name="name"
             type="text"
             value={this.state.name}
             onChange={this.handleChange}
+            required
           />
           <label>Your Email (required)</label>
           <input
@@ -68,6 +63,7 @@ class Contact extends Component {
             type="text"
             value={this.state.email}
             onChange={this.handleChange}
+            required
           />
           <label>Tell us about your project</label>
           <input
