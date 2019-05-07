@@ -8,6 +8,14 @@ class Portfolio extends Component {
       <div className="Portfolio">
         <div className="Portfolio_player-wrapper">
           <ReactPlayer
+            url="https://www.youtube.com/watch?v=GcB7ZcAuerQ"
+            controls
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div className="Portfolio_player-wrapper">
+          <ReactPlayer
             url="https://www.youtube.com/watch?v=murDG6qEFj4"
             controls
             width="100%"
