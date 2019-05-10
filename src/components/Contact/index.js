@@ -7,7 +7,6 @@ class Contact extends Component {
     super(props);
     this.state = {
       name: "",
-      email: "",
       description: ""
     };
 
@@ -50,14 +49,6 @@ class Contact extends Component {
             name="name"
             type="text"
             value={this.state.name}
-            onChange={this.handleChange}
-            required
-          />
-          <label>Your Email (required)</label>
-          <input
-            name="email"
-            type="text"
-            value={this.state.email}
             onChange={this.handleChange}
             required
           />

@@ -8,7 +8,7 @@ class About extends Component {
       <div className="About">
         <div className="About_content">
           <p>
-            Sub Rosa is a media production company based in Ottawa, Ontario, led
+            Sub Rosa is a video production company based in Ottawa, Ontario, led
             by Creative Director Mack Brander and Producer Hassan Moazin.
             <br />
             <br />
