@@ -5,12 +5,12 @@
 </p>
 
 <p align="center">
-  A media production company
+  A video production company
 </p>
 
 ## About
 
-Sub Rosa is a media production company based in Ottawa, Ontario, led by Creative Director Mack Brander and Producer Hassan Moazin. This is their website containing their demo reel, porfolio, about and contact.
+Sub Rosa is a video production company based in Ottawa, Ontario, led by Creative Director Mack Brander and Producer Hassan Moazin. This is their website containing their demo reel, porfolio, about and contact.
 
 ## FAQ
 
