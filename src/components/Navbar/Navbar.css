@@ -51,3 +51,7 @@
     display: block;
   }
 }
+
+.Navbar_link:hover {
+  color: red;
+}

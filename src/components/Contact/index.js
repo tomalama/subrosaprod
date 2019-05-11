@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import background from "../../assets/background.svg";
+import background from "../../assets/images/background.svg";
 import "./Contact.css";
 
 class Contact extends Component {

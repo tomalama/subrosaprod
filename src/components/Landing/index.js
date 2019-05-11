@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import "./Landing.css";
-import styleIsSubstance from "../../assets/style-is-substance-small.png";
+import styleIsSubstance from "../../assets/images/style-is-substance-small.png";
 
 class Landing extends Component {
   render() {

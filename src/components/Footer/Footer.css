@@ -17,6 +17,10 @@
   color: black;
 }
 
+.Footer_logos li a:hover {
+  color: red;
+}
+
 .Footer_copyright {
   text-align: center;
   color: black;

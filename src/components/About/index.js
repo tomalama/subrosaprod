@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import "./About.css";
-import skatin from "../../assets/skatin.png";
+import skatin from "../../assets/images/skatin.png";
 
 class About extends Component {
+  state = { isStopped: false };
+
   render() {
     return (
       <div className="About">

@@ -5,6 +5,8 @@
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
+    "react-fade-in": "^0.1.6",
+    "react-lottie": "^1.2.3",
     "react-player": "^1.10.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
