@@ -32,7 +32,6 @@ class App extends Component {
           options={defaultOptions}
           height={window.height}
           width={window.width}
-          isStopped={this.state.isStopped}
           isClickToPauseDisabled={true}
           eventListeners={[
             {

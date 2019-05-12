@@ -1,6 +1,7 @@
 .Navbar {
   margin: 18px 46px;
   display: flex;
+  z-index: 1;
 }
 
 /* Header */
