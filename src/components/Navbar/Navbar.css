@@ -47,7 +47,11 @@
   display: none;
 }
 
-@media only screen and (max-width: 602px) {
+@media only screen and (max-width: 689px) {
+  .Navbar_link div {
+    margin-right: 0 !important;
+  }
+
   .Navbar_links li {
     display: block;
   }
