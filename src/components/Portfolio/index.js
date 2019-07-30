@@ -6,6 +6,16 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="Portfolio">
+        <h2>Pop Dat - SVDVM + Jahriia</h2>
+        <div className="Portfolio_player-wrapper">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=YhD1sptl034"
+            controls
+            width="100%"
+            height="100%"
+            light={true}
+          />
+        </div>
         <h2>KUMO - LIA KLOUD</h2>
         <div className="Portfolio_player-wrapper">
           <ReactPlayer

@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import FadeIn from "react-fade-in";
-import animationData from "./assets/lottie/transition.json";
+import animationData from "../../assets/lottie/transition.json";
 import Lottie from "react-lottie";
-import Navbar from "./components/Navbar";
-import Landing from "./components/Landing";
-import Portfolio from "./components/Portfolio";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import DemoReel from "./components/DemoReel";
-import Footer from "./components/Footer";
+import Navbar from "../Navbar";
+import Landing from "../Landing";
+import Portfolio from "../Portfolio";
+import About from "../About";
+import Contact from "../Contact";
+import DemoReel from "../DemoReel";
+import Footer from "../Footer";
 import "./App.css";
 
 class App extends Component {
